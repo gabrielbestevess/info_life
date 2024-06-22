@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* Tela Cadastro */
+
+body{
+    padding: o;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-cadastro{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    background-color: #ffffff;
+}
+
+.card-cadastro{
+    background: #fff;
+    margin: 50px;
+    padding: 70px;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 8px rgba(28, 28, 28, 0.4);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.campo-cadastro{
+    width: 350px;
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all linear 180ms;
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo-cadastro::placeholder {
+    color: #665;
+}
+
+.campo-cadastro:focus {
+    border-color: #ff0000;
+}
+
+.botao-cadastro {
+    padding: 17px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #ff4545;
+    cursor: pointer;
+    transition: all linear 180ms;
+}
+
+.botao-cadastro:hover {
+    transform: scale(1.08);
+    background-color: #ff0000;
+}
+
+.label-data-nasc{
+    font-size: 1em;
+    color: #665;
+}
+
+.p-cadastro {
+    font-size: 1em;
+    color: #ff6f6f;
+}
+
+
+.h1-cadastro {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+}
+
+.date{
+    width: 195px;
+    padding: 13.8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all linear 180ms;
+    font-size: 1.15em;
+    color: #787474;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.date:focus {
+    border-color: #ff0000;
+}
+
+/* Tela Login */
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.page-login {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.card-login {
+    max-width: 100%;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 20px 20px 8px rgba(28, 28, 28, 0.4);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.campo-login {
+    padding: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: all linear 180ms;
+    font-size: 1em;
+    color: #444;
+    margin-bottom: 5px;
+    outline: none;
+}
+
+.campo-login::placeholder {
+    color: #665;
+}
+
+.campo-login:focus {
+    border-color: #ff0000;
+}
+
+.botao-login {
+    padding: 15px;
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+    background-color: #ff4545;
+    cursor: pointer;
+    transition: all linear 180ms;
+}
+
+.botao-login:hover {
+    transform: scale(1.08);
+    background-color: #ff0000;
+}
+
+.p-login {
+    font-size: 1em;
+    color: rgb(102, 85, 85);
+}
+
+.a-login {
+    font-size: 1em;
+    color: #ff6f6f;
+    text-decoration: none;
+}
+
+.h2-login {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+
+}
+
+select {
+    border-radius: 5px;
+    padding: 10px;
+    left: 50%;
+    margin-top: 8px;
+    display: inline-block;
+    font-size: 1em;
+    color: #ff6f6f;
+    background-color: rgb(253, 253, 253);
+    outline: none;
+    transition: all linear 180ms;
+    border: 1px solid #ccc;
+}
+
+select:focus {
+    border-color: #ff0000;
+}

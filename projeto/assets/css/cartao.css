@@ -1,0 +1,49 @@
+.bodyCartao {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+.cardCartao {
+    max-width: 800px;
+    width: 100%;
+    padding: 80px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.997);
+    background-color: #f00000;
+    text-align: center;
+}
+.h1Cartao {
+    color: rgb(255, 255, 255);
+    font-size: 57px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.p1Cartao {
+    color: rgb(238, 238, 238);
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.inputCartao{
+    color: aliceblue;
+    background-color: #959595;
+
+}
+
+@media screen and (max-width: 600px) {
+    .cardCartao {
+        padding: 10px;
+    }
+    .h1Cartao {
+        font-size: 1.5rem;
+    }
+}
